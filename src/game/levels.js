@@ -37,7 +37,7 @@ export const NIVEIS_NORMAIS = [
       {
         indent: 0,
         blocos: [VAR('cargo'), OP('='), VAL('"Estagiário"')],
-        distratores: [OP('=='), VAL('"Gerente"')],
+        distratores: [OP('= ='), VAL('"Gerente"')],
         dica: 'Guarde o seu cargo numa variável: uma peça azul (o nome da variável), o sinal de = e uma peça amarela com o cargo entre aspas.'
       },
       {
